@@ -3,9 +3,9 @@ const questions = [
   
   { id: '2° Quais conteúdos são acessados com mais frequência?', text: 'Quais conteúdos são acessados com mais frequência?', answers: ['Redes sociais: facebook, Instagram, whatsapp', 'istring e vídeo: YouTube, Netflix, prime video, Amazom', 'Todas as respostas'] },
   
-  { id: '3° A internet é utilizada para fazer chamadas de vídeo ou trabalhar?', text: 'A internet é utilizada para fazer chamadas de vídeo ou trabalhar?', answers: ['Sim, quase todo o dia', 'Sim, poucas vezes', 'Não'] },
+  { id: '3° A internet é utilizada para fazer chamadas de vídeo ou trabalhar?', text: 'A internet é utilizada para fazer chamadas de vídeo ou trabalhar?', answers: ['Sim, todos os dias', 'Sim, poucas vezes', 'Não'] },
   
-   { id: '4° A internet de casa é usada para jogar online? ', text: 'A internet de casa é usada para jogar online?', answers: ['Sim', 'Não', 'As vezes'] },
+   { id: '4° A internet de casa vai ser usada para jogar online? ', text: 'A internet de casa é usada para jogar online?', answers: ['Sim', 'Não', 'As vezes'] },
    
    
   // Adicione mais perguntas conforme necessário
