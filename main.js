@@ -2,7 +2,7 @@ const questions = [
   { id: '1° Quantas pessoas irão usar a internet na sua casa?', text: 'Quantas pessoas irão usar a internet na sua casa?', answers: ['De 1 à 3 pessoas', 'De 3 à 5 pessoas', '+ de 5 pessoas'] },
   { id: '2° Quais conteúdos são acessados com mais frequência?', text: 'Quais conteúdos são acessados com mais frequência?', answers: ['Redes sociais: facebook, Instagram, whatsapp', 'streaming e vídeo: YouTube, Netflix, prime video, Amazom', 'Todas as respostas'] },
   { id: '3° A internet é utilizada para fazer chamadas de vídeo ou trabalhar?', text: 'A internet é utilizada para fazer chamadas de vídeo ou trabalhar?', answers: ['Sim, todos os dias', 'Sim, poucas vezes', 'Não'] },
-  { id: '4° A internet de casa vai ser usada para jogar online? ', text: 'A internet de casa vai ser usada para jogar online?', answers: ['Sim', 'Não', 'As vezes'] },
+  { id: '4° A internet de casa irá ser usada para jogar online? ', text: 'A internet de casa irá ser usada para jogar online?', answers: ['Sim', 'Não', 'As vezes'] },
 ];
 
 let currentQuestionIndex = 0;
@@ -97,7 +97,7 @@ function submitQuiz() {
   }
 
   const whatsappLink = generateWhatsappLink();
-  window.open(whatsappLink, '_blank');
+  window.location.href = whatsappLink;
 }
 
 function generateWhatsappLink() {
@@ -109,5 +109,3 @@ function generateWhatsappLink() {
 
 // Inicializa o primeiro carregamento da pergunta
 renderQuestion();
-
-
